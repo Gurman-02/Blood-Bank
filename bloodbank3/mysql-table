@@ -1,0 +1,16 @@
+for backend, I have used MYSQL 
+The database which contains the table is called "bloodbank"  and the table name is "infoblood"
+it is described as:
+
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| name      | varchar(20) | YES  |     | NULL    |       |
+| phone_no  | varchar(20) | YES  |     | NULL    |       |
+| address   | varchar(50) | YES  |     | NULL    |       |
+| state     | varchar(40) | YES  |     | NULL    |       |
+| age       | int         | YES  |     | NULL    |       |
+| email     | varchar(20) | NO   | PRI | NULL    |       |
+| date      | date        | YES  |     | NULL    |       |
+| bloodType | varchar(3)  | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
